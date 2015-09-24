@@ -1,0 +1,200 @@
+body, button {
+  font-family: 'Press Start 2P', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+button {
+  background: rgba(238,14,255,1);
+  color: #262E36;
+}
+li {
+  list-style-type: none;
+}
+input {
+    font-family: 'Press Start 2P', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background:rgba(38, 46, 54, 1);
+    color:#eee;
+    border: none;
+    padding:5px;
+}
+.md-toolbar-tools h3 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+  color: rgba(238,14,255,1);
+}
+md-toolbar.md-default-theme {
+  background-color: #262E36;
+  z-index: 99999;
+}
+.md-whiteframe-z2 {
+  background-color: #262E36;
+}
+md-content.md-default-theme {
+  background-color: #eee;
+}
+h1 {
+  color: #262E36;
+}
+h3 {
+   color: rgba(238, 238, 238, 0.5);
+}
+md-sidenav ul {
+  padding-left: 0;
+  margin-top:64px;
+}
+md-sidenav ul li {
+  border-top:1px solid rgba(238, 238, 238, 0.3);
+  color:#262E36;
+}
+md-sidenav ul li:last-child {
+  border-bottom:1px solid rgba(238, 238, 238, 0.3);
+}
+md-sidenav li a {
+  text-decoration:none;
+   color:rgba(238, 238, 238, 0.5);
+   display: block;
+   padding:1.5em 0 1.5em 2em;
+   color: yellowgreen;
+}
+md-sidenav li:hover {
+  background-color: rgba(238, 238, 238, 0.1);
+  background-color: rgba(238,14,255,1);
+   color:#262E36!important;
+   border:none;
+}
+md-sidenav li a:hover, md-sidenav li a:active {
+   color:yellowgreen;
+}
+a:focus {outline:0;}
+.mainOne {
+	background-color: rgba(38, 46, 54, .1);
+	width: 100%;
+	border-radius:5px;
+	padding:1.5em 0;
+}
+.circleContainer {
+	margin:0 auto;
+	display: block;
+  width:48%;
+  float:left;
+  margin-left:1%;
+}
+.circleContainerTwo {
+	margin:0 auto;
+	padding:1em;
+}
+.circleContainerThree {
+	margin:0 auto;
+	padding:1em;
+}
+.circleContainerFour {
+	margin:0 auto;
+	padding:1em;
+}
+.circle {
+	display: inline;
+}
+.cFab {
+	padding: 1em;
+	border-radius:5px!important;
+	background-color: rgba(38, 46, 54, 1);
+	color:white;
+	float: left;
+  clear:both;
+	display: inline-block;
+	width:100%;
+/*	height:10%;
+*/  -webkit-box-shadow: 2px 2px 0px 0px rgba(238,14,255,1);
+}
+.cTwo {
+    background-color: teal;
+}
+.cThree {
+    background-color: tomato;
+}
+.cFour {
+    background-color: slategray;
+}
+button.cFab.md-button.md-default-theme:hover {
+	background-color: yellowgreen;
+}
+.mooninput {
+  display: inline;
+  float:left;
+  margin-top:.4em;
+  margin-right:.5em;
+  padding:0 1em;
+}
+moonstart h3 a {
+  color:yellowgreen;
+  text-decoration: none;
+}
+input:focus {
+  outline-color: yellowgreen;
+}
+.app{
+  min-width:100%;
+  min-height:600px;
+}
+audio {
+        display: none;
+    }
+table tr {
+        height: 20px;
+    }
+ table td {
+        width: 20px;
+        background-color: lightgrey;
+        padding: 15px;
+    }
+
+ table td.on {
+        background-color: #262E36;
+    }
+
+ table td.hit {
+        background-color: yellowgreen;
+    }
+circleContainerFour ul {
+        float :left;
+    }
+circleContainerFour ul li {
+        padding: 10px;
+        list-style: none;
+        float: left;
+    }
+circleContainerFour ul li a {
+        text-decoration: none;
+    }
+.soundmap ul {
+  float:right;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+.soundmap ul: hover {
+  color:yellowgreen;
+}
+.soundmap li {
+  float:left;
+}
+.red {fill: rgba(238,14,255,1);}
+.blue {fill: #0432ff;}
+.yellow {fill: yellowgreen;}
+.black {fill: #262E36;}
+.skin {fill: lightgrey;}
+
+.nofloat {
+  float:none!important;
+  display:block;
+  text-align: center;
+}
+.synth {
+  cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  md-sidenav ul {
+    margin-top:0px;
+  }
+}
